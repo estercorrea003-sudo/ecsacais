@@ -476,5 +476,106 @@ text-align: center;
     font-size: 1.3rem;
 }
 
+/* CELULAR */
+@media (max-width: 768px) {
+
+    .header section {
+        padding: 1rem;
+    }
+
+    .logo img {
+        width: 65px;
+    }
+
+    .navbar a {
+        margin: 0 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    .icon img {
+        width: 25px;
+        margin: 0.5rem;
+    }
+
+    .home-container {
+        height: 100vh;
+    }
+
+    .home-container section {
+        min-height: 100vh;
+        padding: 2rem;
+    }
+
+    .content {
+        max-width: 100%;
+    }
+
+    .content h3 {
+        font-size: 3.5rem;
+    }
+
+    .content p {
+        font-size: 1.6rem;
+    }
+
+    .title {
+        font-size: 3rem;
+        margin: 1rem;
+    }
+
+    /* SOBRE */
+    .about .row {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .about .row .container-imagem,
+    .about .row .content {
+        width: 100%;
+    }
+
+    .about .row .content h3 {
+        font-size: 2.5rem;
+    }
+
+    .about .row .content p {
+        font-size: 1.5rem;
+    }
+
+    /* MENU */
+    .MENU h2 {
+        font-size: 2.8rem;
+    }
+
+    .types {
+        gap: 1.5rem;
+    }
+
+    .size img {
+        width: 120px;
+    }
+
+    /* AVALIAÇÕES */
+    .review {
+        padding: 3rem 2rem;
+    }
+
+    .review .box {
+        width: 100%;
+        max-width: 30rem;
+    }
+
+    /* ENDEREÇO */
+    .address iframe {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* RODAPÉ */
+    .footer {
+        padding: 3rem 2rem;
+    }
+
+}
 
 
